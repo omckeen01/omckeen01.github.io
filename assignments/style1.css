@@ -29,9 +29,11 @@
         font-size: 5 px; 
       }
 
-      a:hover {
-        text-decoration: green;
+      a:hover 
+      {
+        color: green;
       }
 
       ul {background-color: #eeeeee;
-          border: 5 px solid purple}
+          border:solid;
+          border-color: purple }

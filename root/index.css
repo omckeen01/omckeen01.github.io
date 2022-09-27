@@ -1,0 +1,96 @@
+h1 {position: absolute;
+    width: 293px;
+    height: 41px;
+    
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    
+    color: #000000;
+    }
+
+h2 {position: absolute;
+    width: 241px;
+    height: 24px;
+    
+    font-family: 'Cutive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    
+    color: #000000;}
+
+h3 {position: absolute;
+        width: 199px;
+        height: 30px;
+        
+        font-family: 'Elsie';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        /* identical to box height */
+        
+        
+        color: #000000;}
+    
+ h4 {position: absolute;
+        width: 201px;
+        height: 28px;
+        
+        font-family: 'Esteban';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        /* identical to box height */
+        
+        
+        color: #000000;}
+    
+h5 {position: absolute;
+        width: 186px;
+        height: 19px;
+        
+        font-family: 'Cutive';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 19px;
+        /* identical to box height */
+        
+        
+        color: #000000;
+        }
+ h6 {position: absolute;
+        width: 184px;
+        height: 25px;
+        
+        font-family: 'Esteban';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        
+        color: #000000;}
+    
+body {position: absolute;
+      width: 162px;
+      height: 132px;
+            
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+            
+      color: #000000;
+            }
+        
+        
+
+    

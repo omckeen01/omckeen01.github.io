@@ -1,15 +1,16 @@
 html {
     font-family:lato, sans-serif;
+    background-color:rgb(242, 105, 92);
+   
 }
 
 body {
     margin: 100px;
-    background-color:white;
-}
+}  
 
 
 h1 {
-    font-family: 'Bree Serif';
+    font-family: 'Bree Serif', serif;
     font-weight: 400;
     font-style: normal;
     font-size: 32pt;
@@ -17,43 +18,43 @@ h1 {
 }
 
 h2 {
-    font-family: 'Cutive';
+    font-family: lato, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
-    color: rgb(242, 105, 92)
+    color: white
 }
 
 h3 {
-font-family: 'Elsie';
+font-family: Georgia, 'Times New Roman', Times, serif
 font-style: normal;
 font-weight: 400;
 font-size: 26px;
 }
 
 h4 {
-font-family: 'Esteban';
+font-family: Georgia, 'Times New Roman', Times, serif;
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
 }
 
 h5 { 
-font-family: 'Cutive';
+font-family: lato, serif;
 font-style: italic;
 font-weight: 400;
 font-size: 22px;
 }
 
 h6 {
-font-family: 'Esteban';
+font-family: Georgia, 'Times New Roman', Times, serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 }
 
 p {
-font-family: 'Lato';
+font-family: lato, serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -85,7 +86,7 @@ a:active {
   }
 
   nav {
-    background-color:#F2CBBD;
+    background-color: rgb(242, 203, 189);
     padding: .5em;
     top: 0;
     position: sticky;
@@ -129,18 +130,17 @@ a:active {
     gap: 20px
   }
 
+  img {
+    max-width: 100%;
+    display: block;
+}
   @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
   }
 
-  @media only screen and (min-width: 800px) {
-    body {
-      background-color: orange;
-    }
-  }
-
+  
 
 
   

@@ -124,7 +124,7 @@ a:active {
 
   .grid {
     margin: 0 auto;
-    padding: 0 20px;
+    padding: .5em 1em;
     max-width: 980px;
     display: grid;
     grid-template-columns: 3fr 1fr;

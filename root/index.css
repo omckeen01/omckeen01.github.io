@@ -7,14 +7,6 @@ body {
     background-color:white;
 }
 
-.grid {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 980px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px
-  }
 
 h1 {
     font-family: 'Bree Serif';
@@ -67,7 +59,7 @@ font-weight: 400;
 font-size: 16px;
 }
 
-a:link,
+a:link
 a:visited {
     color:black
 }
@@ -78,4 +70,77 @@ a:hover {
 a:active {
     color: #39A7BF}
 
-hr {border: 3px solid #000000;}
+
+    hr {border: 3px solid #000000;}
+
+.button-default {
+    background-color: #59A8D9; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  nav {
+    background-color:#F2CBBD;
+    padding: .5em;
+    top: 0;
+    position: sticky;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+  }
+  
+  .feature {
+      width: 200px;
+      float: left;
+      padding: 20px;
+  }
+
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    body {
+      background-color: orange;
+    }
+  }
+
+
+
+  

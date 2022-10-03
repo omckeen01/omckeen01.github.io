@@ -30,6 +30,7 @@ h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   font-size: 26px;
+  color: white
   }
 
 h4 {
@@ -40,7 +41,7 @@ font-size: 24px;
 }
 
 h5 { 
-font-family: lato, serif;
+font-family: 'Cutive Mono';
 font-style: italic;
 font-weight: 400;
 font-size: 22px;
@@ -61,10 +62,11 @@ font-size: 16px;
 }
 
 body {
-  font-family: 'Cutive Mono';
+  font-family: 'Bree Serif';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  padding: .5em 1em;
 }
 
 

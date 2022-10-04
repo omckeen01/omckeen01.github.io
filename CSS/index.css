@@ -156,12 +156,13 @@ a:active {
 p {
   float: inline-end;
   background-color: rgb(242, 203, 189);
-  width: 15em;
-  height: 15em;
-  padding: .5em; 
+  width: 45em;
+  height: 5em;
+  padding: .05em; 
 }
 aside{
   margin-top: 100px;
+  margin-right: 20px;
   float: right;
   background-color: rgb(242, 105, 92);
   border: 1px solid black;

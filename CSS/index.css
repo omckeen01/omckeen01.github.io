@@ -1,103 +1,98 @@
+
 html {
-    font-family:lato, sans-serif;
-    background-color:rgb(242, 105, 92);
-   
+    background-color:rgb(242, 105, 92);   
 }
 
-body {
-    margin: 100px;
-    background-color: rgb(242, 197, 114);
-}  
 
-
-h1 {
-    font-family: 'Bree Serif';
+h1 { 
+    font-family: 'Bree Serif' ;
     font-weight: 400;
     font-style: normal;
-    font-size: 32pt;
+    font-size: 28pt;
     color: black
 }
 
 h2 {
-    font-family: lato, serif;
-    font-style: normal;
+    font-family: 'Bree Serif';
+    font-style: italic;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 24px;
     color: white
 }
 
 h3 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Elsie';
   font-weight: 400;
-  font-size: 26px;
+  font-size: 22px;
   color: white
   }
 
 h4 {
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: Georgia;
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 22px;
 }
 
 h5 { 
 font-family: 'Cutive Mono';
 font-style: italic;
 font-weight: 400;
-font-size: 22px;
+font-size: 17px;
 }
 
 h6 {
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 }
 
-p {
-font-family: 'Bree Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-}
 
 body {
-  font-family: 'Bree Serif';
-  font-style: normal;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
   padding: .5em 1em;
+  margin: 100px;
+  background-color: rgb(242, 197, 114)
 }
+
+
 
 
 a:link
 a:visited {
-    color:black
+    color:rgb(89, 168, 217)
 }
 
 a:hover {
-    color:black}
+    color:rgb(34, 74, 89)
+  }
+  
 
 a:active {
-    color: #39A7BF}
+    color: black}
 
 
     hr {border: 3px solid #000000;}
 
-.button-default {
-    background-color: #59A8D9; 
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-  }
+
+
+    .button {
+      background-color: #59A8D9; 
+      border: black;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
 
   nav {
     background-color: rgb(242, 203, 189);
-    padding: .5em;
+    padding: .3em;
     top: 0;
     position: sticky;
   }
@@ -119,10 +114,14 @@ a:active {
   .photos {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 30;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1px;
+  }
+
+  .border {
+    border: 1px solid #000000;
   }
   
   .feature {
@@ -133,16 +132,23 @@ a:active {
 
   .grid {
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 50px;
     max-width: 980px;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 20px
   }
 
   img {
     max-width: 100%;
     display: block;
+  
+}
+
+.logo {
+  font-size: 200%;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 980px;
 }
   @media only screen and (max-width: 600px) {
     body {

@@ -64,6 +64,7 @@ body {
 a:link
 a:visited {
     color:rgb(89, 168, 217)
+    
 }
 
 a:hover {
@@ -141,6 +142,7 @@ a:active {
   img {
     max-width: 100%;
     display: block;
+    margin-top: 75px; 
   
 }
 
@@ -149,6 +151,23 @@ a:active {
   padding: 50px 20px;
   margin: 0 auto;
   max-width: 980px;
+}
+
+p {
+  float: inline-end;
+  background-color: rgb(242, 203, 189);
+  width: 15em;
+  height: 15em;
+  padding: .5em; 
+}
+aside{
+  margin-top: 100px;
+  float: right;
+  background-color: rgb(242, 105, 92);
+  border: 1px solid black;
+  width: 15em;
+  height: 10em;
+  padding: .05em;
 }
   @media only screen and (max-width: 600px) {
     body {

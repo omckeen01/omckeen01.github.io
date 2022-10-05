@@ -168,7 +168,7 @@ aside{
   border: 1px solid black;
   width: 15em;
   height: 10em;
-  padding: 2em;
+  padding: 1.5em;
 }
   @media only screen and (max-width: 600px) {
     body {

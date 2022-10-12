@@ -1,3 +1,4 @@
+
 const outer  = document.querySelector('.outer');
 const middle = document.querySelector('.middle');
 const inner1 = document.querySelector('.inner1');

@@ -2,20 +2,14 @@
 <html>
     <head>
         <script defer src="../../js/ica8.js"></script>
+        <link rel="stylesheet" href = "CSS/index.css">
 
     </head>
 <body>
-  <link rel="stylesheet" href = "CSS/index.css">
+
     <div class="outer">
         outer, once & none-once
-        <div class="middle" target="_blank">
-          middle, capture & none-capture
-          <a class="inner1" href="https://www.mozilla.org" target="_blank">
-            inner1, passive & preventDefault(which is not allowed)
-          </a>
-          <a class="inner2" href="https://developer.mozilla.org/" target="_blank">
-            inner2, none-passive & preventDefault(not open new page)
-          </a>
+       
         </div>
       </div>
       <button id="myBtn">Click Me</button>

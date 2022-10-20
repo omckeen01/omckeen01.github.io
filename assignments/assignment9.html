@@ -34,10 +34,15 @@ body {
 .full-img {
   position: relative;
   display: block;
-  width: 200px;
+  width: 500px;
   height: 480px;
+  
 }
 
+img{
+ max-width: 100%;
+ max-height: 100%   
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -73,7 +78,7 @@ button {
    <h1>Image gallery example</h1>
     
     <div class="full-img">
-  <img class="displayed-img" src="images/pic3.jpg" alt="Cat nip">
+  <img class="displayed-img" src="../images/pic3.jpg" alt="Cat nip">
 <div class="overlay"></div>
    <button class="dark">Darken</button>
   </div>

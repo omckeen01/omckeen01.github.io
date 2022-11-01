@@ -15,7 +15,7 @@ async function getQuote() {
     //console.log(text['message']);
 
     console.log(json_response['message']);
-    
+
     displayQuote(json_response['message']);
 }
 
@@ -27,6 +27,8 @@ async function getQuote() {
 
     document.getElementById('js-quote-text').textContent = x;
   }
+
+  getQuote();
 
   
 

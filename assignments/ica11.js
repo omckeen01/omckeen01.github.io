@@ -13,6 +13,9 @@ async function getQuote() {
     //console.log(json_response);
     
     //console.log(text['message']);
+
+    console.log(json_response['message']);
+    
     displayQuote(json_response['message']);
 }
 

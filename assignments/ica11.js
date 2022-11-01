@@ -17,10 +17,12 @@ async function getQuote() {
 }
 
   function displayQuote(x) {
-    const quoteBox = document.querySelector('#js-quote-text');
-    const textMessage = document.createTextNode(x);
+    //const quoteBox = document.querySelector('#js-quote-text');
+    //const textMessage = document.createTextNode(x);
 
-    quoteBox.appendChild(textMessage);
+    //quoteBox.appendChild(textMessage);
+
+    document.getElementById('js-quote-text').textContent = x;
   }
 
   

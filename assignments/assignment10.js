@@ -60,7 +60,7 @@ for (let i = 0; i<company.employees.length; i++){
 console.log("Problem 5", sum);
 
 
-const peopleWFH = ['Anna', 'Sam'];
+let peopleWFH = ['Anna', 'Sam'];
 
 for (var i = 0; i<company.employees.length; i++){
   company.employees[i].wfh = peopleWFH.includes(company.employees[i].name);

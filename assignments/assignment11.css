@@ -9,11 +9,24 @@ html {
     margin: 1;
     padding: 0;
   }
-  
+ 
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     background-color: purple;
+    position: bottom;
   }
+
+ p {   
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:lavenderblush;
+    padding: 25px;
+    text-align: center
+ }
   
   .app {
     position: absolute;
@@ -133,6 +146,8 @@ html {
     color: #666666;
     cursor: not-allowed;
   }
+  
+
   @-webkit-keyframes sk-stretchdelay {
     0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
     20% { -webkit-transform: scaleY(1.0) }

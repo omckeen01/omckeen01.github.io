@@ -29,7 +29,7 @@ async function getQuote() {
         displayQuote(json_message);
         setTweetButton(json_response);
       } catch {
-        alert('Found your quote!');
+        alert('Finding a quote for you!');
       } finally {
         quoteButton.disabled = false;
         spinner.classList.add('hidden');

@@ -8,23 +8,18 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="js-spinner" class="spinner hidden">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
     <div class="app">
         <header>Quotes</header>
         <section class="quotes">
-          <div class="quote-text" id="js-quote-text">WELCOME TO MY PORTAL</div>
-          <div id="js-spinner" class="spinner hidden">
-            <div class="rect1"></div>
-            <div class="rect2"></div>
-            <div class="rect3"></div>
-            <div class="rect4"></div>
-            <div class="rect5"></div>
-          </div> 
-        </section>
-        <section class="controls">
-          <button type="button" id="js-new-quote" class="new-quote button">
-            Generate a new quote
-          </button>
-          <a class="twitter button" id="js-tweet" target="_blank" rel="noopener noreferrer">Tweet it!</a>
+            Quotes of Kanye
+            *I acknowledge that he is not an ethical figure*
         </section>
     </div>
     <button onclick='getQuote()'>Get quote</button>
@@ -33,6 +28,5 @@
       <script src="../assignments/assignment11.js"></script>
       <p>
         My extension was creating a loading icon and then having an alert pop up saying that the website is fetching a quote for them using JS, HTML, and CSS. 
-      </footer>
     </p> 
 </html>

@@ -1,9 +1,14 @@
 const twitterButton = document.querySelector('#js-tweet');
 const spinner = document.querySelector('#js-spinner');
-const quoteButton = document.querySelector('.new-quote');
-quoteButton.addEventListener('click', getQuote);
+const divWithQuote = document.getElementById("insertQuoteHere");
 
-const endpoint = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
+const getQuote = () => {
+	fetch("https://api.kanye.rest")
+		.then(response => response.json())
+	  .then(data => console.log(data));
+}
+
+const endpoint = 'https://api.quotable.io/random';
 
 async function getQuote() {
     let text = await fetch(endpoint);
@@ -42,8 +47,28 @@ async function getQuote() {
 
 
 function setTweetButton(quote) {
-    twitterButton.setAttribute('href', `https://twitter.com/share?text=${quote} - Donald Trump`);
+    twitterButton.setAttribute('href', `https://twitter.com/share?text=${quote} - Someone Smart`);
+  }
+  function randomQuote() {
+    $.ajax({
+        url: "https://api.forismatic.com/api/1.0/?",
+        dataType: "jsonp",
+        data: "method=getQuote&format=jsonp&lang=en&jsonp=?",
+        success: function( response ) {
+          $("#random_quote").html("<p id='random_quote' class='lead text-center'>" +
+            response.quoteText + "<br/>&dash; " + response.quoteAuthor + " &dash;</p>");
+          $("#tweet").attr("href", "https://twitter.com/home/?status=" + response.quoteText +
+            ' (' + response.quoteAuthor + ')');
+        }
+    });
   }
   
+  $(function() {
+    randomQuote();
+  });
+  
+  $("button").click(function(){
+    randomQuote();
+  });
   getQuote();
   setTweetButton();

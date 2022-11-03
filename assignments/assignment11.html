@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="app">
-        <header>Random Donald Trump Quotes</header>
+        <header>Quotes</header>
         <section class="quotes">
           <div class="quote-text" id="js-quote-text">WELCOME TO MY PORTAL</div>
           <div id="js-spinner" class="spinner hidden">
@@ -26,7 +26,10 @@
           </button>
           <a class="twitter button" id="js-tweet" target="_blank" rel="noopener noreferrer">Tweet it!</a>
         </section>
-      </div>
+    </div>
+    <button onclick='getQuote()'>Get quote</button>
+    <div id='insertQuoteHere' />
+    
       <script src="../assignments/assignment11.js"></script>
       <p>
         My extension was creating a loading icon and then having an alert pop up saying that the website is fetching a quote for them using JS, HTML, and CSS. 

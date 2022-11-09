@@ -1,0 +1,28 @@
+body {
+    background-color: orangered;
+    color: rgb(255, 47, 189);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 1em blue;
+    margin: 6;
+    position: relative
+  }
+
+  h1 {
+    color: greenyellow;
+    font-size: 4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 10px dotted turquoise
+  }
+  h2 {
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 10px dotted turquoise  
+}
+  
+  h3 {
+    color: blueviolet;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }

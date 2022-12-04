@@ -160,12 +160,14 @@ p {
   height: 5em;
   padding: .05em; 
 }
+
+
 aside{
   margin-top: 100px;
   margin-right: 20px;
   float: right;
-  background-color: rgb(242, 105, 92);
-  border: 1px solid black;
+
+  
   width: 15em;
   height: 10em;
   padding: 1.25em;

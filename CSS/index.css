@@ -3,6 +3,14 @@ html {
     background-color:#F7C8C2
 }
 
+.logoimage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('mylogo.png');
+
+}
 
 h1 { 
     font-family: 'Bree Serif' ;
@@ -16,7 +24,7 @@ h2 {
     font-family: 'Bree Serif';
     font-style: italic;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     color:  #EE8888
 }
 

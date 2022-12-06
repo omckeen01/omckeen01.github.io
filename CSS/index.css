@@ -1,6 +1,7 @@
 
 html {
     background-color:#F7C8C2
+
 }
 
 .logoimage {
@@ -227,7 +228,8 @@ aside{
   height: 20em;
   padding: 1.25em;
 }
-  @media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 100px) {
     body {
       background-color: lightblue;
     }

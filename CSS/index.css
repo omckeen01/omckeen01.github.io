@@ -1,5 +1,11 @@
 
-html {
+
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  html {
     background-color:#F7C8C2
 
 }
@@ -23,25 +29,24 @@ html {
 }
 
 h1 { 
-    font-family: 'Bree Serif' ;
+    font-family: 'Elsie' ;
     font-weight: 400;
     font-style: normal;
-    font-size: 26pt;
+    font-size: 22pt;
     color: black
 }
 
 h2 {
-    font-family: 'Bree Serif';
-    font-style: italic;
+    font-family: 'Elsie';
     font-weight: 400;
-    font-size: 18px;
-    color:  #EE8888
+    font-size: 20px;
+    color:  black
 }
 
 h3 {
   font-family: 'Elsie';
   font-weight: 400;
-  font-size: 22px;
+  font-size: 19px;
   color:  #EE8888
   }
 
@@ -49,14 +54,14 @@ h4 {
 font-family: Georgia;
 font-style: normal;
 font-weight: 400;
-font-size: 22px;
+font-size: 18px;
 }
 
 h5 { 
 font-family: 'Cutive Mono';
 font-style: italic;
 font-weight: 400;
-font-size: 17px;
+font-size: 18px;
 }
 
 h6 {
@@ -71,12 +76,19 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  padding: .5em 1em;
+  padding: .5em 2em;
   margin: 100px;
   background-color:white
 }
 
-
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: .5em 1em;
+  margin: 70px;
+  background-color:white
+}
 
 
 a:link
@@ -114,6 +126,7 @@ a:active {
     padding: .3em;
     top: 0;
     position: sticky;
+
   }
   
   nav ul {
@@ -122,6 +135,7 @@ a:active {
     list-style: none;
     display:flex;
     justify-content: space-evenly;
+ 
   }
   
   nav a {
@@ -129,6 +143,7 @@ a:active {
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     padding: .5em 1em;
+
   }
   
   .photos {
@@ -153,7 +168,7 @@ a:active {
   .grid {
     margin: 0 auto;
     padding: 0 50px;
-    max-width: 980px;
+    max-width: 600px;
     display: grid;
     grid-template-columns: 3fr 1fr;
   }
@@ -172,13 +187,7 @@ a:active {
   max-width: 980px;
 }
 
-p {
-  float: inline-end;
-  background-color:white;
-  width: 45em;
-  height: 5em;
-  padding: .05em; 
-}
+
 
 .full-img {
   position: relative;
@@ -237,21 +246,6 @@ aside{
   height: 20em;
   padding: 1.25em;
 }
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
 }
-
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
-
-  
-
 
   

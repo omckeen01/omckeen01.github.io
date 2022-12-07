@@ -192,8 +192,8 @@ a:active {
 .full-img {
   position: relative;
   display: flex;
-  width: 500px;
-  height: 480px;
+  width: 600px;
+  height: 380px;
 
 }
 
@@ -203,9 +203,10 @@ a:active {
   top: 0;
   left: 0;
   width: 600px;
-  height: 480px;
+  height: 380px;
   background-color: rgba(0,0,0,0);
-  border: 3px solid pink
+  border: 3px solid pink;
+  display:flex
 }
 
 button {

@@ -6,7 +6,7 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
-const imageArray = ['SRGrole.png', 'TFrole.png', 'SVrole.png', 'RUNArole.png', 'Vroll.png','DEIrole.png','DSProle.png','EHrole.png','CC1role.png','CCrole.png']
+const imageArray = ['SRGrole.png', 'TFrole.png', 'SVrole.png', 'RUNArole.png', 'Vroll.png','DEIrole.png','DSProle.png','EHrole.png','CC1role.png']
 
 /* Declaring the alternative text for each image file */
 
@@ -19,8 +19,7 @@ const altArray = {
 'DEIrole.png' : 'Leeds',
 'DSProle.png' : 'Delta Sigma Pi',
 'EHrole.png' : 'Earth Hero',
-'CC1role.png' : 'Cloud Campaign',
-'CCrole.png' : 'Collegiate Crossings'
+'CC1role.png' : 'Cloud Campaign'
 };
 
 /* Looping through images */

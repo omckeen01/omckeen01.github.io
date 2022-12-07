@@ -150,7 +150,7 @@ a:active {
     list-style: none;
     margin: 0;
     padding: 30px;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     gap: 1px;
   }
@@ -165,13 +165,7 @@ a:active {
       padding: 20px;
   }
 
-  .grid {
-    margin: 0 auto;
-    padding: 0 50px;
-    max-width: 600px;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-  }
+  
 
   img {
     max-width: 100%;
@@ -192,7 +186,7 @@ a:active {
 .full-img {
   position: relative;
   display: flex;
-  width: 600px;
+  width: 400px;
   height: 380px;
 
 }
@@ -202,7 +196,7 @@ a:active {
   position: absolute;
   top: 0;
   left: 0;
-  width: 600px;
+  width: 400px;
   height: 380px;
   background-color: rgba(0,0,0,0);
   border: 3px solid pink;
